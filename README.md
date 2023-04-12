@@ -74,15 +74,12 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-
-
 ```sh
   git clone https://github.com/anderCM/Decode-morse.git
     cd Decode-morse
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- AUTHORS -->
 
@@ -93,12 +90,16 @@ Clone this repository to your desired folder:
 - GitHub: [@githubhandle](https://github.com/anderCM)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/andersoncanales/)
 
+👤 **Jakaria Jishan**
+
+- GitHub: [@githubhandle](https://github.com/JakariaJishan)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jakariajishan/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
 
 - [ ] **[Starting with ruby]**
 - [ ] **[Clean code]**
@@ -129,7 +130,6 @@ Feel free to check the [issues page](../../issues/).
 I would like to thank to my team
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
