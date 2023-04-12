@@ -1,4 +1,4 @@
-$morse_dict = {
+morse_dict = {
   '.-' => 'A',
   '-...' => 'B',
   '-.-.' => 'C',
@@ -39,3 +39,5 @@ $morse_dict = {
   '--..--' => ',',
   '..--..' => '?'
 }
+
+print morse_dict
