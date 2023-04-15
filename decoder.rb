@@ -40,13 +40,22 @@ morse_dict = {
   '..--..' => '?'
 }
 
+
+define_method :decode_char do |character|
+  morse_dict[character]
+end
+
+define_method :decode_word do |word|
+  characters = word.split
+  characters.each do |character|
+    print decode_char(character)
+  end
+end
+
 define_method :decode do |code|
   words = code.split('   ')
   words.each do |word|
-    characters = word.split
-    characters.each do |character|
-      print morse_dict[character]
-    end
+    decode_word(word)
     print ' '
   end
 end
