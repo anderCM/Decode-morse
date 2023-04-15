@@ -44,7 +44,10 @@ define_method :decode do |code|
   words = code.split('   ')
   words.each do |word|
     characters = word.split
-    print morse_dict
-    print characters
+    characters.each do |character|
+      print morse_dict[character]
+    end
+    print ' '
   end
 end
+decode('-- -.--   -. .- -- .')
