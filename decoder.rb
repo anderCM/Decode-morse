@@ -40,7 +40,6 @@ morse_dict = {
   '..--..' => '?'
 }
 
-
 define_method :decode_char do |character|
   morse_dict[character]
 end
